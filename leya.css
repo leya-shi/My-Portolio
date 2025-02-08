@@ -1,0 +1,98 @@
+#{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+background-color: rgb(59, 22, 22);
+color: azure;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.5;
+}
+
+img{
+height: 500px;
+width: 1500px;
+}
+    
+h1,
+h2{
+margin-top: 15px;
+}
+
+.container{
+max-width: 1100px;
+margin: 0 auto;
+padding: 0 30px;
+}
+
+.navbar{
+background-color: maroon;
+color: black;
+}
+
+.navbar a{
+color: whitesmoke;
+text-decoration: none;
+font-size: 18px ;
+font-weight: bold;
+}
+
+
+
+.navbar container{
+display: flex;
+justify-content: space-between;
+}
+
+
+.navbar ul{
+  display: flex;  
+  color: whitesmoke;
+}
+
+.navbar ul li{
+margin-right: 100px;
+}
+
+.header{
+background-color: rgb(114, 54, 54);
+color: azure;
+min-height: 400px;
+}
+
+.header h1{
+font-size: 3rem;
+font-weight: bold;
+line-height: 1.2;
+}
+
+.header image{
+max-width: 400px;
+}
+
+.header .container{
+ display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.boxes .container{
+display: flex;
+justify-content: space-between;
+}
+
+.box{
+flex: 1;
+background-color: rgb(83, 8, 8);
+color: whitesmoke;
+border-radius: 10px;
+margin: 20px 10px;
+padding: 15px 10px;
+
+}
+
+
+
